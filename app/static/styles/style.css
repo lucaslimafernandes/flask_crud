@@ -1,0 +1,64 @@
+/*CSS Lucas Lima Fernandes*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9E9E9;
+    margin: 0px;
+}
+
+header {
+    background-color: #141F3C;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px 15px;
+}
+
+header > h1 {
+    margin: 0px 0px 15px 0px;
+    color: #EEEC00;
+}
+
+nav {
+    padding: 3px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.498);
+}
+
+nav > a {
+    color: #E9E9E9;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: #EEEC00;
+}
+
+nav > a:active {
+    color: #7c7a00;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px 15px;
+    box-shadow: 4px 4px 9px 0px rgb(0, 0, 0, 0.330);
+}
+
+footer {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin: 0px 10px 0px 10px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+
+/* FORMS */
+
+input {
+    margin: 5px
+}
